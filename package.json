@@ -1,0 +1,10 @@
+{
+  "name": "web3js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "web3": "^1.5.2"
+  }
+}
