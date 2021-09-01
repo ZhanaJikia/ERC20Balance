@@ -29,3 +29,4 @@ const walletAddress = "0xc1aae9d18bbe386b102435a8632c8063d31e747c";
 const contractAddress = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
 
 getBalance(walletAddress, contractAddress);
+module.exports = { getBalance };
