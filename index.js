@@ -1,10 +1,10 @@
 const Web3 = require("web3");
 
-;(async () => {
+(async () => {
 
   const provider = "https://mainnet.infura.io/v3/b8fa89d40a4f4259954d465558d05c0a"
 
-  const Web3Client = new Web3(new Web3.providers.HttpProvider(provider));
+  const Web3Client = new Web3(new Web3.providers.HttpProvider(provider))
 
   const minABI = [
     {

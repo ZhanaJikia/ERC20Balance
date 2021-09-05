@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.1",
     "web3": "^1.5.2"
   },
   "description": "The \"Hello World\" project for Ethereum and Web3.js which allows you to query the ERC-20 token balance of an Ethereum address.",
