@@ -25,10 +25,8 @@ const Web3 = require("web3");
 
   const getBalance = async ({ walletAddress, contractAddress }) => {
     const contract = new Web3Client.eth.Contract(minABI, contractAddress)
-    
     const balance = await contract.methods.balanceOf(walletAddress).call()
     const symbol = await contract.methods.symbol().call()
-
     return `${balance / 1.0e+6} ${symbol}`
   }
 
@@ -40,8 +38,6 @@ const Web3 = require("web3");
   })
   console.log(result)
   // 175000 WETH
-
-
 
   result = await getBalance({
     walletAddress: '0x8a446971dbb112f3be15bc38c14d44b94d9e94b9',
